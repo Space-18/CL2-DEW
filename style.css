@@ -1,0 +1,24 @@
+.*{
+  margin: 0px;
+  padding: 0px;
+}
+#contenedor{
+  margin: 0.01%;
+  width: 99.75%;
+  background: yellow;
+}
+.contenido1{
+  display: flex;
+}
+.contenido2{
+    background: black;
+}
+.contenido3{
+    background: skyblue;
+}
+.contenido4{
+    background: red;
+}
+.contenido5{
+    background: green;
+}
