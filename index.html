@@ -7,6 +7,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.extensions.min.js"></script>
   </head>
   <body>
+    <nav id="menu">
+     <a href="#1">Pagina 1</a>
+     <a href="#2">Pagina 2</a>
+     <a href="#3">Pagina 3</a>
+     <a href="#4">Pagina 4</a>
+     <a href="#5">Pagina 5</a>
+   </nav>
     <div id="contenedor">
       <div class="section">
         <div class="contenido1">
@@ -51,6 +58,8 @@
     navigationPosition: 'right',
     navigationTooltips: [' 1 ', ' 2 ',' 3 ',' 4 ', ' 5 '],
     showActiveTooltip: true,
+    lazyLoad: true,
+    menu: '#menu'
   });
   </script>
 </html>
