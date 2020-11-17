@@ -29,7 +29,7 @@
 }
 .boton {
   border: 2px solid transparent;
-  background: #9C9C9C;
+  background: #c49608;
   color: #ffffff;
   font-size: 16px;
   line-height: 25px;
@@ -103,13 +103,14 @@
 }
 .im1, .im2{
  margin-left: 29.7%;
- border: black 5px solid;
+ border: #c49608 5px solid;
  border-radius: 20px;
 }
 .sdj1{
+  border-radius: 20px;
   text-align: center;
   margin-left: 24.5%;
-  background: blue;
+  background: #000766;
   width: 50%;
   color: white;
 }
