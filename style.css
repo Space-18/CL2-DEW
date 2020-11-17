@@ -96,8 +96,23 @@
 .contenido5 h2{
   text-align: center;
   font-size: 27px;
-  margin-top: 530px;
+  margin-top: 37.5%;
+}
+.contenido5 h3{
+  margin-left: 66%;
 }
 .im1, .im2{
- margin-left: 30%;
+ margin-left: 29.7%;
+ border: black 5px solid;
+ border-radius: 20px;
+}
+.sdj1{
+  text-align: center;
+  margin-left: 24.5%;
+  background: blue;
+  width: 50%;
+  color: white;
+}
+#carritoFast{
+  width: 20%;
 }
