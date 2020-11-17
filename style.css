@@ -25,12 +25,14 @@
   display: inline-flex;
 }
 #menu a{
-  margin-left: 170px;
+  margin-left: 160px;
 }
 .boton {
   border: 2px solid transparent;
   background: #c49608;
   color: #ffffff;
+  padding-left: 2px;
+  padding-right: 2px;
   font-size: 16px;
   line-height: 25px;
   text-decoration: none;
@@ -65,18 +67,18 @@
 .fp-controlArrow.fp-prev {
   left: 15px;
   border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent #9C9C9C transparent transparent;
+  border-color: transparent #787878 transparent transparent;
 }
 .fp-controlArrow.fp-prev:hover{
-  border-color: transparent #696969 transparent transparent;
+  border-color: transparent #c49608 transparent transparent;
 }
 .fp-controlArrow.fp-next {
   right: 15px;
   border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent #9C9C9C;
+  border-color: transparent transparent transparent #787878;
 }
 .fp-controlArrow.fp-next:hover{
-  border-color: transparent transparent transparent #696969;
+  border-color: transparent transparent transparent #c49608;
 }
 .fp-section {
   position: relative;
@@ -107,6 +109,10 @@
  border-radius: 20px;
 }
 .sdj1{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 2.5px;
+  padding-bottom: 2.5px;
   border-radius: 20px;
   text-align: center;
   margin-left: 24.5%;
